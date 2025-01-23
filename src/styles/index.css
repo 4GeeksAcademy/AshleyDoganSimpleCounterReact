@@ -9,3 +9,32 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-color: black;
+}
+
+.row {
+    margin: auto;
+    padding-top: 15px;
+}
+
+.container {
+    margin: auto;
+}
+    
+.box1 {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    height: 125px;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 8px;
+    text-align: center;
+}
+

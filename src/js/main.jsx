@@ -9,10 +9,12 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
+
+
 import Home from './components/Home';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <Home FirstNumber={2} SecondNumber={3} ThirdNumber={4} FourthNumber={4} FifthNumber={5} SixthNumber={6}/>
   </React.StrictMode>,
 )
