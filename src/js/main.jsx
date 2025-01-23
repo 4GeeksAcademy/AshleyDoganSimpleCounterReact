@@ -13,8 +13,21 @@ import '../styles/index.css'
 
 import Home from './components/Home';
 
+
+let counter = 0
+
+setInterval (() => {
+  const First = Math.floor(counter / 1);
+  const Second = Math.floor(counter / 10);
+  const Third = Math.floor(counter / 100);
+  const Fourth = Math.floor(counter / 1000);
+  const Fifth = Math.floor(counter / 10000);
+  const Sixth = Math.floor(counter /100000);
+  counter++;
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home FirstNumber={2} SecondNumber={3} ThirdNumber={4} FourthNumber={4} FifthNumber={5} SixthNumber={6}/>
+    <Home FirstNumber={First} SecondNumber={Second} ThirdNumber={Third} FourthNumber={Fourth} FifthNumber={Fifth} SixthNumber={Sixth}/>
   </React.StrictMode>,
 )
+}, 1000)

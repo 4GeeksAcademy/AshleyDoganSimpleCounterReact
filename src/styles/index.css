@@ -10,7 +10,7 @@
 
 */
 body {
-    background-color: black;
+    background-color: #b2dfdb;
 }
 
 .row {
@@ -23,18 +23,17 @@ body {
 }
     
 .box1 {
-    background-color: black;
-    color: white;
+    background-color:#e0f2f1;
+    color:#004d40;
     border-radius: 5px;
-    border-style: solid;
-    border-color: gray;
-    border-width: 1px;
+    border-color: #e0f2f1;
     height: 125px;
     width: 100px;
     margin: 5px;
     text-align: center;
     font-size: 70px;
-    padding-top: 8px;
+    font-family: fantasy;
+    padding-top: 12px;
     text-align: center;
 }
 

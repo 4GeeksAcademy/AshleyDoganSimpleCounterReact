@@ -12,12 +12,12 @@ const Home = ({FirstNumber,SecondNumber,ThirdNumber,FourthNumber,FifthNumber,Six
 		<div className="container">
 			<div className="row">
         		<div className="box1"><i class="fa-regular fa-clock"></i></div>
-				<SecondCounter number={SixthNumber}/>
-				<SecondCounter number={FifthNumber} />
-				<SecondCounter number={FourthNumber} />
-				<SecondCounter number={ThirdNumber} />
-				<SecondCounter number={SecondNumber} />
-				<SecondCounter number={FirstNumber} />
+				<SecondCounter number={SixthNumber % 10}/>
+				<SecondCounter number={FifthNumber % 10} />
+				<SecondCounter number={FourthNumber % 10} />
+				<SecondCounter number={ThirdNumber % 10} />
+				<SecondCounter number={SecondNumber % 10} />
+				<SecondCounter number={FirstNumber % 10} />
 			</div>
 		</div>
 	);
